@@ -48,7 +48,6 @@ graph TD
 * **Примеры реализации SMM:**
   * [Instagram @anzur.rest](https://www.instagram.com/anzur.rest/) — ресторанный комплекс
   * [Instagram @rudaki.house](https://www.instagram.com/rudaki.house/) — ресторан Рудаки Хаус
-  * [Instagram @cafe.lazur](https://www.instagram.com/cafe.lazur?igsh=MWdkdjY4bHpldmUzYg%3D%3D) — кафе Лазур
 * **Комплексное ведение аккаунтов:** Модерация, комьюнити-менеджмент, таргетинг и работа с блогерами.
 
 ### 3. 💻 Digital-разработка (Web & Apps)
