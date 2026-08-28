@@ -129,8 +129,8 @@
     <!-- FILTER BAR -->
     <section class="px-6 pb-12 max-w-7xl mx-auto sticky top-20 z-40">
         <div class="glass-mono p-2 rounded-2xl flex flex-wrap items-center justify-center gap-2 max-w-4xl mx-auto border border-white/10">
-            <button onclick="filterPortfolio('video')" class="filter-btn active text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold border border-transparent transition duration-200">Видео работы (16)</button>
-            <button onclick="filterPortfolio('ai')" class="filter-btn text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold text-gray-400 border border-transparent hover:text-white transition duration-200">AI Видео (3)</button>
+            <button onclick="filterPortfolio('video')" class="filter-btn active text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold border border-transparent transition duration-200">Видео работы</button>
+            <button onclick="filterPortfolio('ai')" class="filter-btn text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold text-gray-400 border border-transparent hover:text-white transition duration-200">AI Видео</button>
             <button onclick="filterPortfolio('smm')" class="filter-btn text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold text-gray-400 border border-transparent hover:text-white transition duration-200">SMM & Reels</button>
             <button onclick="filterPortfolio('web')" class="filter-btn text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold text-gray-400 border border-transparent hover:text-white transition duration-200">Digital & Apps</button>
             <button onclick="filterPortfolio('events')" class="filter-btn text-[11px] sm:text-xs px-4 py-2 rounded-xl text-xs uppercase tracking-widest font-bold text-gray-400 border border-transparent hover:text-white transition duration-200">Events & Шоу</button>
@@ -141,39 +141,11 @@
     <section id="gallery" class="px-6 pb-24 max-w-7xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolioGrid">
             
-            <!-- REGULAR VIDEO WORKS (16 CARDS) -->
-            <!-- Regular Video #01 -->
+            <!-- REGULAR VIDEO WORKS -->
+            <!-- Regular Video: Рекламное видео №1 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('AK47uNcmJNo')">
-                    <img src="https://img.youtube.com/vi/AK47uNcmJNo/hqdefault.jpg" alt="Шоурил Продакшн" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Showreel</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Шоурил Продакшн</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Главный презентационный шоурил: динамичный монтаж, саунд-дизайн и цветокоррекция.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('AK47uNcmJNo')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/AK47uNcmJNo" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #02 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('u31qwQUeGuM')">
-                    <img src="https://img.youtube.com/vi/u31qwQUeGuM/hqdefault.jpg" alt="Рекламный ролик №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('PwqKMjNcpHE')">
+                    <img src="https://img.youtube.com/vi/PwqKMjNcpHE/hqdefault.jpg" alt="Рекламное видео №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
@@ -184,260 +156,64 @@
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Рекламный ролик №1</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Имиджевая реклама для ТВ и digital-каналов с кинематографичной постановкой.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Рекламное видео №1</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Рекламный ролик с кинематографичной съемкой и акцентом на ценности бренда.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('u31qwQUeGuM')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('PwqKMjNcpHE')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/u31qwQUeGuM" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/PwqKMjNcpHE" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #03 -->
+            <!-- Regular Video: Рекламное видео №2 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('F-1w5jK6_4k')">
-                    <img src="https://img.youtube.com/vi/F-1w5jK6_4k/hqdefault.jpg" alt="Имиджевое видео №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('ttLMxuIGzdU')">
+                    <img src="https://img.youtube.com/vi/ttLMxuIGzdU/hqdefault.jpg" alt="Рекламное видео №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Имиджевое</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Реклама</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Имиджевое видео №2</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Корпоративный фильм о бренде с акцентом на ценности и масштаб компании.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Рекламное видео №2</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Имиджевая реклама для ТВ и digital-кампаний полного производственного цикла.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('F-1w5jK6_4k')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('ttLMxuIGzdU')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/F-1w5jK6_4k" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/ttLMxuIGzdU" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #04 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('V-_O7nl0Ii0')">
-                    <img src="https://img.youtube.com/vi/V-_O7nl0Ii0/hqdefault.jpg" alt="Промо ролик №3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Промо</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Промо ролик №3</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Яркий промо-ролик для презентации нового продукта и стимулирования продаж.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('V-_O7nl0Ii0')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/V-_O7nl0Ii0" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #05 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('C0DPdy98e4c')">
-                    <img src="https://img.youtube.com/vi/C0DPdy98e4c/hqdefault.jpg" alt="3D Motion & VFX" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">3D & VFX</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">3D Motion & VFX</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Компьютерная графика, визуальные спецэффекты и трехмерная анимация.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('C0DPdy98e4c')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/C0DPdy98e4c" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #06 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('e-ORhEE9VVg')">
-                    <img src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="Спецпроект №4" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Спецпроект</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Спецпроект №4</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Нестандартный креативный формат видео для привлечения широкой аудитории.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('e-ORhEE9VVg')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/e-ORhEE9VVg" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #07 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('gTYXS82r7b4')">
-                    <img src="https://img.youtube.com/vi/gTYXS82r7b4/hqdefault.jpg" alt="Социальное видео" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Глубокая социальная история. Заказчик — Aga Khan Foundation.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('gTYXS82r7b4')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/gTYXS82r7b4" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #08 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('2zYcQWzZ5m8')">
-                    <img src="https://img.youtube.com/vi/2zYcQWzZ5m8/hqdefault.jpg" alt="Фестивальный ролик" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Фестиваль</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Фестивальный ролик</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Энергичный репортаж с масштабного фестиваля: драйв, эмоции и атмосфера.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('2zYcQWzZ5m8')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/2zYcQWzZ5m8" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #09 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('fJ9rUzIMcZQ')">
-                    <img src="https://img.youtube.com/vi/fJ9rUzIMcZQ/hqdefault.jpg" alt="Динамический монтаж" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Динамика</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Динамический монтаж</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Скоростной клиповый монтаж с визуальными переходами и саунд-дизайном.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('fJ9rUzIMcZQ')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/fJ9rUzIMcZQ" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #10 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('xGcqTmtZtCM')">
-                    <img src="https://img.youtube.com/vi/xGcqTmtZtCM/hqdefault.jpg" alt="Проект #10" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
-                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
-                            <i class="fa-solid fa-play ml-1"></i>
-                        </div>
-                    </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #10</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Коммерческий видеопроект полного производственного цикла.</p>
-                    </div>
-                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('xGcqTmtZtCM')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
-                            <span>Смотреть</span>
-                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                        <a href="https://youtu.be/xGcqTmtZtCM" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
-                            <i class="fa-brands fa-youtube text-base"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Regular Video #11 -->
+            <!-- Regular Video: Рекламное видео №3 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
                 <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('tdCs51Fe1Vk')">
-                    <img src="https://img.youtube.com/vi/tdCs51Fe1Vk/hqdefault.jpg" alt="Проект #11" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="https://img.youtube.com/vi/tdCs51Fe1Vk/hqdefault.jpg" alt="Рекламное видео №3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Реклама</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #11</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Презентационное видео для корпоративного сектора.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Рекламное видео №3</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Динамичное промо-видео с оригинальной концепцией и саунд-дизайном.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
                         <button onclick="openModal('tdCs51Fe1Vk')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
@@ -450,22 +226,22 @@
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #12 -->
+            <!-- Regular Video: Имиджевое видео №2 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
                 <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('Yv4I0xYu9sQ')">
-                    <img src="https://img.youtube.com/vi/Yv4I0xYu9sQ/hqdefault.jpg" alt="Проект #12" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="https://img.youtube.com/vi/Yv4I0xYu9sQ/hqdefault.jpg" alt="Имиджевое видео №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Имиджевое</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #12</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Съемка презентации и брендового контента.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Имиджевое видео №2</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Корпоративный фильм о бренде с акцентом на масштаб и статус компании.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
                         <button onclick="openModal('Yv4I0xYu9sQ')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
@@ -478,106 +254,134 @@
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #13 -->
+            <!-- Regular Video: Социальное видео №1 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('5cMeqVevEao')">
-                    <img src="https://img.youtube.com/vi/5cMeqVevEao/hqdefault.jpg" alt="Проект #13" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('Lip0NrytM6w')">
+                    <img src="https://img.youtube.com/vi/Lip0NrytM6w/hqdefault.jpg" alt="Социальное видео №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #13</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Рекламный проект с акцентом на продуктовый визуал.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №1</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Глубокий социальный видеоролик с постановочной режиссурой и драматургией.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('5cMeqVevEao')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('Lip0NrytM6w')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/5cMeqVevEao" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/Lip0NrytM6w" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #14 -->
+            <!-- Regular Video: Социальное видео №2 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('Ic1IHFA2Iik')">
-                    <img src="https://img.youtube.com/vi/Ic1IHFA2Iik/hqdefault.jpg" alt="Проект #14" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('LVB7h2M3xuQ')">
+                    <img src="https://img.youtube.com/vi/LVB7h2M3xuQ/hqdefault.jpg" alt="Социальное видео №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #14</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Имиджевый контент для социальных сетей и медиа.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №2</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Социальный проект с кинематографичным визуальным рядом.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('Ic1IHFA2Iik')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('LVB7h2M3xuQ')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/Ic1IHFA2Iik" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/LVB7h2M3xuQ" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #15 -->
+            <!-- Regular Video: Социальное видео №3 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('P7zyfeMab34')">
-                    <img src="https://img.youtube.com/vi/P7zyfeMab34/hqdefault.jpg" alt="Проект #15" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('pPlYA7-3dYg')">
+                    <img src="https://img.youtube.com/vi/pPlYA7-3dYg/hqdefault.jpg" alt="Социальное видео №3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #15</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Репортажная и постановочная видеосъемка мероприятия.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №3</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Эмоциональная социальная история, созданная для широкой аудитории.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('P7zyfeMab34')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('pPlYA7-3dYg')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/P7zyfeMab34" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/pPlYA7-3dYg" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- Regular Video #16 -->
+            <!-- Regular Video: Социальное видео №4 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('gTYXS82r7b4')">
+                    <img src="https://img.youtube.com/vi/gTYXS82r7b4/hqdefault.jpg" alt="Социальное видео №4" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №4</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Социальный проект для международного фонда Aga Khan Foundation.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('gTYXS82r7b4')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/gTYXS82r7b4" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Regular Video: Социальное видео №5 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
                 <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('RCix_mu6U34')">
-                    <img src="https://img.youtube.com/vi/RCix_mu6U34/hqdefault.jpg" alt="Проект #16" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                    <img src="https://img.youtube.com/vi/RCix_mu6U34/hqdefault.jpg" alt="Социальное видео №5" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Продакшн</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Проект #16</h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Комплексный видеопродакшн с оригинальным сценарием.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №5</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Тематический социальный видеопроект с сильным смысловым посылом.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
                         <button onclick="openModal('RCix_mu6U34')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
@@ -590,59 +394,227 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- AI VIDEO WORKS (3 CARDS) -->
-            <!-- AI Video AI Video #01 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="ai">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('LJZsjR0qF1U')">
-                    <img src="https://img.youtube.com/vi/LJZsjR0qF1U/hqdefault.jpg" alt="AI Видео №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+            <!-- Regular Video: Социальное видео №6 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('P7zyfeMab34')">
+                    <img src="https://img.youtube.com/vi/P7zyfeMab34/hqdefault.jpg" alt="Социальное видео №6" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">AI Video #01</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
-                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition flex items-center justify-between">
-                            <span>AI Видео №1</span>
-                            <i class="fa-solid fa-wand-magic-sparkles text-xs text-purple-400"></i>
-                        </h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">Генерация видеоконтента с использованием передовых нейросетей Midjourney, Kling и Runway.</p>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №6</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Социальный имиджевый ролик с профессиональным монтажом и цветокоррекцией.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('LJZsjR0qF1U')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('P7zyfeMab34')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/LJZsjR0qF1U" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/P7zyfeMab34" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- AI Video AI Video #02 -->
-            <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="ai">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('KqC2RqANGBk')">
-                    <img src="https://img.youtube.com/vi/KqC2RqANGBk/hqdefault.jpg" alt="AI Видео №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+            <!-- Regular Video: Социальное видео №7 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('5cMeqVevEao')">
+                    <img src="https://img.youtube.com/vi/5cMeqVevEao/hqdefault.jpg" alt="Социальное видео №7" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">AI Video #02</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Социальное</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Социальное видео №7</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Масштабный социальный видеоролик полного цикла производства.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('5cMeqVevEao')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/5cMeqVevEao" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Regular Video: Документальный фильм №1 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('8xuDtvgXHGY')">
+                    <img src="https://img.youtube.com/vi/8xuDtvgXHGY/hqdefault.jpg" alt="Документальный фильм №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Документальное</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Документальный фильм №1</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Документальное кино с глубоким погружением в историю и интервью.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('8xuDtvgXHGY')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/8xuDtvgXHGY" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Regular Video: Документальный фильм №2 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('Ic1IHFA2Iik')">
+                    <img src="https://img.youtube.com/vi/Ic1IHFA2Iik/hqdefault.jpg" alt="Документальный фильм №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Документальное</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Документальный фильм №2</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Документальный видеопроект: хроника, сторителлинг и авторская съемка.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('Ic1IHFA2Iik')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/Ic1IHFA2Iik" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Regular Video: Музыкальный клип №1 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('xGcqTmtZtCM')">
+                    <img src="https://img.youtube.com/vi/xGcqTmtZtCM/hqdefault.jpg" alt="Музыкальный клип №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Клип</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Музыкальный клип №1</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Музыкальное видео с динамичным клиповым монтажом и световыми эффектами.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('xGcqTmtZtCM')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/xGcqTmtZtCM" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Regular Video: Репортажная съемка №1 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between" data-category="video">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('8lKEAt38xCU')">
+                    <img src="https://img.youtube.com/vi/8lKEAt38xCU/hqdefault.jpg" alt="Репортажная съемка №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">Репортаж</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition">Репортажная съемка №1</h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">Профессиональный репортаж с мероприятия: атмосфера, драйв и ключевые моменты.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('8lKEAt38xCU')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/8lKEAt38xCU" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- AI VIDEO WORKS -->
+            <!-- AI Video: Имиджевое АИ видео №1 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="ai">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('8Sb_5S9o-GQ')">
+                    <img src="https://img.youtube.com/vi/8Sb_5S9o-GQ/hqdefault.jpg" alt="Имиджевое АИ видео №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">AI Video</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition flex items-center justify-between">
-                            <span>AI Видео №2</span>
+                            <span>Имиджевое АИ видео №1</span>
                             <i class="fa-solid fa-wand-magic-sparkles text-xs text-purple-400"></i>
                         </h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">AI-генерация, концептуальный визуальный ряд и динамический пост-продакшн.</p>
+                        <p class="text-xs text-mono-muted leading-relaxed">Генеративный ролик, созданный с помощью нейросетей Midjourney, Kling и Runway.</p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                        <button onclick="openModal('8Sb_5S9o-GQ')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                            <span>Смотреть</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                        <a href="https://youtu.be/8Sb_5S9o-GQ" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                            <i class="fa-brands fa-youtube text-base"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- AI Video: АИ Анимация для бренда №1 -->
+            <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="ai">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('KqC2RqANGBk')">
+                    <img src="https://img.youtube.com/vi/KqC2RqANGBk/hqdefault.jpg" alt="АИ Анимация для бренда №1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
+                    </div>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">AI Video</span>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition flex items-center justify-between">
+                            <span>АИ Анимация для бренда №1</span>
+                            <i class="fa-solid fa-wand-magic-sparkles text-xs text-purple-400"></i>
+                        </h3>
+                        <p class="text-xs text-mono-muted leading-relaxed">AI-генерация, концептуальный визуальный ряд и динамический нейросетевой монтаж.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
                         <button onclick="openModal('KqC2RqANGBk')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
@@ -655,32 +627,32 @@
                     </div>
                 </div>
             </div>
-            <!-- AI Video AI Video #03 -->
+            <!-- AI Video: АИ Анимация для партнера №2 -->
             <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="ai">
-                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('8Sb_5S9o-GQ')">
-                    <img src="https://img.youtube.com/vi/8Sb_5S9o-GQ/hqdefault.jpg" alt="AI Видео №3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+                <div class="relative h-60 bg-zinc-900 overflow-hidden cursor-pointer" onclick="openModal('LJZsjR0qF1U')">
+                    <img src="https://img.youtube.com/vi/LJZsjR0qF1U/hqdefault.jpg" alt="АИ Анимация для партнера №2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100">
                     <div class="absolute inset-0 bg-gradient-to-t from-mono-dark via-black/20 to-transparent"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="w-14 h-14 rounded-full bg-white/90 text-black flex items-center justify-center text-xl shadow-2xl group-hover:scale-110 transition duration-300">
                             <i class="fa-solid fa-play ml-1"></i>
                         </div>
                     </div>
-                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">AI Video #03</span>
+                    <span class="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest px-3 py-1 bg-black/80 text-white rounded-full border border-white/10">AI Video</span>
                 </div>
                 <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div>
                         <h3 class="font-heading text-xl font-bold text-white mb-2 group-hover:text-gray-200 transition flex items-center justify-between">
-                            <span>AI Видео №3</span>
+                            <span>АИ Анимация для партнера №2</span>
                             <i class="fa-solid fa-wand-magic-sparkles text-xs text-purple-400"></i>
                         </h3>
-                        <p class="text-xs text-mono-muted leading-relaxed">CGI & AI визуализация и виртуальный продакшн для рекламных кампаний брендов.</p>
+                        <p class="text-xs text-mono-muted leading-relaxed">CGI & AI визуализация и виртуальный продакшн для рекламных кампаний.</p>
                     </div>
                     <div class="flex items-center justify-between pt-4 border-t border-white/5">
-                        <button onclick="openModal('8Sb_5S9o-GQ')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
+                        <button onclick="openModal('LJZsjR0qF1U')" class="text-xs font-bold uppercase tracking-widest text-white hover:text-gray-300 flex items-center space-x-2">
                             <span>Смотреть</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
-                        <a href="https://youtu.be/8Sb_5S9o-GQ" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
+                        <a href="https://youtu.be/LJZsjR0qF1U" target="_blank" class="text-xs text-gray-500 hover:text-gray-300">
                             <i class="fa-brands fa-youtube text-base"></i>
                         </a>
                     </div>
@@ -720,7 +692,7 @@
                     </div>
                 </div>
             </div>
-                        <!-- SMM: Rudaki House -->
+            <!-- SMM: Rudaki House -->
             <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="smm">
                 <a href="https://www.instagram.com/rudaki.house/" target="_blank" class="block">
                     <div class="relative h-60 bg-zinc-900 overflow-hidden flex items-center justify-center">
@@ -752,7 +724,7 @@
                 </div>
             </div>
 
-<!-- DIGITAL & APPS -->
+            <!-- DIGITAL & APPS -->
             <!-- Digital & Apps: Digital Wall -->
             <div class="portfolio-item mono-border group flex flex-col justify-between hidden-item" data-category="web">
                 <a href="https://digital-wall-ruby.vercel.app/" target="_blank" class="block">
